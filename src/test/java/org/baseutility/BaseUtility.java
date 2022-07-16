@@ -34,6 +34,9 @@ public class BaseUtility {
 		System.out.println("Login Module");
 		System.out.println("Work done by test1 on Branch A");
 		System.out.println("Code works fine in Local");
+		System.out.println("Text Module");
+		System.out.println("Work done by B in Test2");
+		System.out.println("B code is also running fine");
 		return properties.getProperty(key);
 	}
 
