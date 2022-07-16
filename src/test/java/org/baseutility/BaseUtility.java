@@ -31,6 +31,9 @@ public class BaseUtility {
 		FileInputStream stream = new FileInputStream(filepath);
 		Properties properties = new Properties();
 		properties.load(stream);
+		System.out.println("Text Module");
+		System.out.println("Work done by B in Test2");
+		System.out.println("B code is also running fine");
 		return properties.getProperty(key);
 	}
 
